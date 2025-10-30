@@ -1,13 +1,32 @@
-langchain
-langchain-community
-qdrant-client
-sentence-transformers
-FlagEmbedding
-torch
-unstructured
-pypdf
-ragas
-datasets
-tqdm
-python-dotenv
-pandas
+# ---- LangChain family (>=0.2, consistent pins)
+langchain==0.2.17
+langchain-community==0.2.19
+langchain-core==0.2.43
+langchain-text-splitters==0.2.4
+
+# ---- Vector DB
+qdrant-client>=1.7,<2
+
+# ---- Embeddings / Reranker (all local/OSS)
+sentence-transformers>=2.5,<3
+FlagEmbedding>=1.2,<2
+
+# ---- LLM client (for ChatOllama in LangChain)
+ollama>=0.3.0
+
+# ---- Parsing
+unstructured>=0.15,<0.16
+pypdf>=4.2,<5
+
+# ---- Eval
+ragas>=0.1.12
+datasets>=2.19,<3
+
+# ---- Utils
+tqdm>=4.66,<5
+python-dotenv>=1.0,<2
+pandas>=2.2,<3
+
+# ---- Numeric stack (safe on Py 3.12 CPU)
+numpy>=1.26,<2
+torch>=2.2,<3
