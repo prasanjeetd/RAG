@@ -1,0 +1,3 @@
+This is an open-source RAG PoC.
+It uses sentence-transformers for embeddings, BGE reranker, Qdrant for vectors,
+and Ollama for answer generation.

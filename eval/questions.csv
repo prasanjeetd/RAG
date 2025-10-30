@@ -1,0 +1,2 @@
+question,reference
+"What does this project demonstrate?","An open-source RAG PoC with Qdrant, BGE reranker, and Ollama."

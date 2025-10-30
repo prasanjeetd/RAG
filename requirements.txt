@@ -1,0 +1,13 @@
+langchain
+langchain-community
+qdrant-client
+sentence-transformers
+FlagEmbedding
+torch
+unstructured
+pypdf
+ragas
+datasets
+tqdm
+python-dotenv
+pandas
